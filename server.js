@@ -1,7 +1,7 @@
 // server.js
 const express = require('express');
 const cors = require('cors');
-const thumbmark = require('thumbmark');
+const thumbmark = require('@thumbmarkjs/thumbmarkjs');
 const axios = require('axios');
 const path = require('path');
 require('dotenv').config();
